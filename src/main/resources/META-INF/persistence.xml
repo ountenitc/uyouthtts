@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.rigo.rigo_rigo_war_0.0.1-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.rigo.rigo.entities.Categoriedoc</class>
+    <class>com.rigo.rigo.entities.Langue</class>
+    <class>com.rigo.rigo.entities.Alphabetfr</class>
+    <class>com.rigo.rigo.entities.Alertetext</class>
+    <class>com.rigo.rigo.entities.Motexpressionmr</class>
+    <class>com.rigo.rigo.entities.Motexpressionfr</class>
+    <class>com.rigo.rigo.entities.Doctext</class>
+    <class>com.rigo.rigo.entities.Fulltextfrmr</class>
+    <class>com.rigo.rigo.entities.Opinionfrmr</class>
+    <class>com.rigo.rigo.entities.Doctext_1</class>
+    <class>com.rigo.rigo.entities.Opinionfrmr_1</class>
+    <class>com.rigo.rigo.entities.Reponseopinionfrmr</class>
+    <class>com.rigo.rigo.entities.Categoriedoc_1</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/rigo"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="MAE2020"/>
+    </properties>
+  </persistence-unit>
+</persistence>
